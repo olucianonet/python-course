@@ -2,11 +2,10 @@
 
 Notas de estudos sobre Python
 
-## 1. Classes e Objetos
+## 2. Herança
 
 Tópicos estudados:
 
-- Criação da classe
-- Definição de métodos assessores
-- @property
-- name
+- Herança
+- Generalização/especialização
+- Método super()
