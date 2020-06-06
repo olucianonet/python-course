@@ -2,10 +2,11 @@
 
 Notas de estudos sobre Python
 
-## 4. Herança 2
+## 5. Duck Typing e ABC
 
 Tópicos estudados:
 
-- Herança de um tipo built-in (nativo)
-- Vantagens da herança de um iterável
-- Desvantagem de fazer herança
+- Duck typing
+- Python data (object) model
+- Dunder methods
+- Uso de ABCs

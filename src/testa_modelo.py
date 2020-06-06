@@ -19,6 +19,6 @@ programas = [batman, bcs, terminator]
 
 playlist = Playlist("Minha lista", programas)
 
-print(f'Tamanho da lista: {playlist.tamanho}')
-for programa in playlist.programas:
+print(f'Tamanho da lista: {len(playlist)}')
+for programa in playlist:
     print(programa)
