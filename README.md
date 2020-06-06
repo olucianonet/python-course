@@ -2,11 +2,10 @@
 
 Notas de estudos sobre Python
 
-## 5. Duck Typing e ABC
+## 6. Herança Múltipla
 
 Tópicos estudados:
 
-- Duck typing
-- Python data (object) model
-- Dunder methods
-- Uso de ABCs
+- Herança múltipla
+- Resolução da ordem de chamada de métodos
+- Mixins
