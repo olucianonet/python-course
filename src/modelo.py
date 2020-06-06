@@ -21,17 +21,26 @@ class Programa:
     def dar_like(self):
         self._likes += 1
 
+    def __str__(self):
+        return f"Nome: {self.nome}, Ano: {self.ano}"
+
 
 class Filme(Programa):
     def __init__(self, nome, ano, duracao):
         super().__init__(nome, ano)
         self.duracao = duracao
 
+    def __str__(self):
+        return super().__str__() + f", Duração: {self.duracao}"
+
 
 class Serie(Programa):
     def __init__(self, nome, ano, temporadas):
         super().__init__(nome, ano)
         self.temporadas = temporadas
+
+    def __str__(self):
+        return super().__str__() + f", Temporadas: {self.temporadas}"
 
 
 class NoConstr:

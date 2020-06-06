@@ -2,10 +2,9 @@
 
 Notas de estudos sobre Python
 
-## 2. Herança
-
+## 2. Polimorfismo
 Tópicos estudados:
 
-- Herança
-- Generalização/especialização
-- Método super()
+- Polimorfismo
+- Relacionamento é um
+- Representação textual de um objeto

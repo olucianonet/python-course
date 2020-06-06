@@ -17,3 +17,8 @@ print(f"Nome: {bcs.nome}, Ano: {bcs.ano}, Temporadas: {bcs.temporadas}")
 
 hello = NoConstr()
 hello.hello()
+
+playlist = [bcs, batman]
+
+for programa in playlist:
+    print(programa)
