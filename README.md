@@ -2,9 +2,10 @@
 
 Notas de estudos sobre Python
 
-## 2. Polimorfismo
+## 4. Herança 2
+
 Tópicos estudados:
 
-- Polimorfismo
-- Relacionamento é um
-- Representação textual de um objeto
+- Herança de um tipo built-in (nativo)
+- Vantagens da herança de um iterável
+- Desvantagem de fazer herança

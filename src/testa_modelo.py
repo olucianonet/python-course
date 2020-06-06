@@ -1,24 +1,24 @@
 # -*- coding: utf-8 -*-
 
-from modelo import Filme, Serie, NoConstr
+from modelo import Filme, Serie, Playlist
 
 
 batman = Filme("Batman, O Retorno", 2000, 180)
-print(f"Nome: {batman.nome}, Ano: {batman.ano}, Duração: {batman.duracao}, Likes: {batman.likes}")
-
-batman.nome = "Batman Begins"
-
 batman.dar_like()
 
-print(f"Nome: {batman.nome}, Ano: {batman.ano}, Duração: {batman.duracao}, Likes: {batman.likes}")
-
 bcs = Serie("Better Call Saul", 2016, 4)
-print(f"Nome: {bcs.nome}, Ano: {bcs.ano}, Temporadas: {bcs.temporadas}")
+bcs.dar_like()
+bcs.dar_like()
 
-hello = NoConstr()
-hello.hello()
+terminator = Filme("Terminator", 1990, 105)
+terminator.dar_like()
+terminator.dar_like()
+terminator.dar_like()
 
-playlist = [bcs, batman]
+programas = [batman, bcs, terminator]
 
-for programa in playlist:
+playlist = Playlist("Minha lista", programas)
+
+print(f'Tamanho da lista: {playlist.tamanho}')
+for programa in playlist.programas:
     print(programa)
