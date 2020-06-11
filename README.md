@@ -6,3 +6,6 @@ Notas de estudos sobre Python
 
 Tópicos estudados:
 
+```
+python -m unittest src/tests/test_avaliador.py -v
+```
